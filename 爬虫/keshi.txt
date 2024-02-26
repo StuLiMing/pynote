@@ -1,0 +1,18 @@
+内科 : 呼吸内科/p/huxineike.html消化内科/p/xiaohuaneike.html泌尿内科/p/miniaoneike.html心内科/p/xinneike.html血液科/p/xueyeke.html内分泌科/p/neifenmike.html神经内科/p/shenjingneike.html肾内科/p/shenneike.html遗传病科/p/yichuanbingke.html风湿免疫科/p/fengshimianyike.html
+外科 : 感染科/p/ganranke.html普外科/p/puwaike.html骨外科/p/guwaike.html神经外科/p/shenjingwaike.html心胸外科/p/xinxiongwaike.html肝胆外科/p/gandanwaike.html泌尿外科/p/miniaowaike.html烧伤科/p/shaoshangke.html肛肠科/p/gangchangke.html整形美容科/p/zhengxingmeirongke.html
+妇产科 : 妇科/p/fuke.html产科/p/chanke.html
+传染科 : 
+生殖健康 : 不孕不育/p/buyunbuyu.html
+男科 : 
+皮肤性病科 : 皮肤科/p/pifuke.html性病科/p/xingbingke.html
+中医科 : 中医综合/p/zhongyizonghe.html中医骨伤科/p/zhongyigushangke.html中医理疗科/p/zhongyililiaoke.html
+中西医结合科 : 
+五官科 : 眼科/p/yanke.html口腔科/p/kouqiangke.html耳鼻喉科/p/erbihouke.html
+精神科 : 
+心理科 : 
+儿科 : 儿科综合/p/erkezonghe.html小儿外科/p/xiaoerwaike.html小儿内科/p/xiaoerneike.html
+营养科 : 
+肿瘤科 : 肿瘤内科/p/zhongliuneike.html肿瘤外科/p/zhongliuwaike.html
+其他科室 : 药品科/p/yaopinke.html重症监护/p/zhongzhengjianhu.html辅助检查/p/fuzhujiancha.html康复科/p/kangfuke.html理疗科/p/liliaoke.html其他综合/p/qitazonghe.html保健养生/p/baojianyangsheng.html
+急诊科 : 
+体检科 : 
