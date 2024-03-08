@@ -5,16 +5,16 @@
 当前路径的初始值并不是脚本代码所在路径，而是 `VScode` 等 IDE 当前打开的文件夹。
 ## os常用基本方法
 
-| 方法                                   | 功能                                   |
-| -------------------------------------- | -------------------------------------- |
-| os.getcwd()                            | 获取Python当前的工作路径               |
-| os.chdir(folderpath)                   | 将当前工作文件夹改为path               |
-| os.rename(old_path,new_path)           | 重命名                                 |
-| os.remove(filepath)                    | 删除文件                               |
-| os.mkdir(folderpath)                   | 创建文件夹（如果path已存在会抛出错误） |
-| os.rmdir(folderpath)                   | 删除空文件夹（如果path非空会抛出错误） |
-| os.listdir(folderpath)                 | 遍历文件夹下所有文件                   |
-| os.path.join(path1,path2 ) | 拼接两个路径                                       |
+| 方法                           | 功能                    |
+| ---------------------------- | --------------------- |
+| os.getcwd()                  | 获取Python当前的工作路径       |
+| os.chdir(folderpath)         | 将当前工作文件夹改为path        |
+| os.rename(old_path,new_path) | 重命名                   |
+| os.remove(filepath)          | 删除文件                  |
+| os.mkdir(folderpath)         | 创建文件夹（如果path已存在会抛出错误） |
+| os.rmdir(folderpath)         | 删除空文件夹（如果path非空会抛出错误） |
+| os.listdir(folderpath)       | 遍历文件夹下所有文件            |
+| os.path.join(path1,path2 )   | 拼接两个路径                |
 
 ## os.walk()
 
