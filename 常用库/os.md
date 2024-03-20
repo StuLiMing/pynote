@@ -5,16 +5,18 @@
 当前路径的初始值并不是脚本代码所在路径，而是 `VScode` 等 IDE 当前打开的文件夹。
 ## os常用基本方法
 
-| 方法                           | 功能                    |
-| ---------------------------- | --------------------- |
-| os.getcwd()                  | 获取Python当前的工作路径       |
-| os.chdir(folderpath)         | 将当前工作文件夹改为path        |
-| os.rename(old_path,new_path) | 重命名                   |
-| os.remove(filepath)          | 删除文件                  |
-| os.mkdir(folderpath)         | 创建文件夹（如果path已存在会抛出错误） |
-| os.rmdir(folderpath)         | 删除空文件夹（如果path非空会抛出错误） |
-| os.listdir(folderpath)       | 遍历文件夹下所有文件            |
-| os.path.join(path1,path2 )   | 拼接两个路径                |
+| 方法                                      | 功能                                                                                          |
+| --------------------------------------- | ------------------------------------------------------------------------------------------- |
+| os.getcwd()                             | 获取Python当前的工作路径                                                                             |
+| os.chdir(folderpath)                    | 将当前工作文件夹改为path                                                                              |
+| os.rename(old_path,new_path)            | 重命名                                                                                         |
+| os.remove(filepath)                     | 删除文件                                                                                        |
+| os.mkdir(folderpath)                    | 创建文件夹（如果folderpath已存在会抛出错误）                                                                 |
+| os.rmdir(folderpath)                    | 删除空文件夹（如果folderpath非空会抛出错误）                                                                 |
+| os.listdir(folderpath)                  | 遍历文件夹下所有文件                                                                                  |
+| os.path.join(path1,path2 )              | 拼接两个路径                                                                                      |
+| os.makedirs(folderpath, exist_ok=False) | 用于递归创建目录。这意味着如果你想创建的目录的父目录不存在，`os.makedirs`会自动创建所有必需的父目录。如果`exist_ok=True`，那么要创建的目录存在也不会报错。 |
+|                                         |                                                                                             |
 
 ## os.walk()
 
@@ -55,3 +57,4 @@ for root,dirs,files in os.walk("./"):
 + os.path.exists(path)：检查文件或文件夹是否存在
 + os.path.isdir(path)：检查path是否是一个文件夹
 + os.path.basename(path)：返回一个路径的的最后一层
++ os.path.join(*path): 将两个或多个路径拼接
